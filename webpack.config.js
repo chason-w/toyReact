@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-20 20:25:08
- * @LastEditTime: 2020-07-20 21:00:22
+ * @LastEditTime: 2020-07-21 22:45:07
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /toy-react/webpack.config.js
@@ -11,6 +11,7 @@ module.exports = {
         main: './main.js'
     },
     mode: 'development',
+    devtool: 'source-map',
     module: {
         rules: [
             {
